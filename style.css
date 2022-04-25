@@ -44,21 +44,6 @@
     font-family: manrope;
     color: white;
 }
-.menu li a {
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    padding: 20px;
-    font-size: 20px;
-    font-family: manrope;
-}
-
-
-.fotoinicio img {
-    width: 300;
-    height: 600;
-}
-
 
 .inicio {
     background-color: #b9cebb;
@@ -101,7 +86,6 @@
     font-weight: bold;
     text-align: justify;
     padding: 20px 70px 60px 80px;
-  
 }
 
 .form-container {
@@ -109,45 +93,6 @@
     text-align: start;
     background-color: #ECF8EE;
     border: black;
-    
-}
-
-.informacion {
-    font-size: 15px;
-    color: white;
-
-}
-
-.informacion2 {
-    font-size: 15px;
-    color: white;
-}
-
-.socialmedia {
-    font-size: 15px;
-    color: white;
-
-}
-.socialmedia2 {
-    font-size: 15px;
-    color: white;
-}
-
-
-.footer-container {
-    background-color: #607963;
-    font-family: manrope;
-    color: white;
-    font-size: 18px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    grid-area: footer;
-    padding-top: 10px;
-}
-
-.footer-container div ul li {
-    list-style-type: none;
 }
 
 .btn-primary {
