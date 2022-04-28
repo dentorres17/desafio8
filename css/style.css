@@ -1,3 +1,31 @@
+@charset "UTF-8";
+#titulo-diseños, .imagenes1, .quienesomos {
+  font-family: manrope;
+  text-align: center;
+  padding: 20px 20px 20px 10px;
+}
+
+.texto-diseños, .textoquienesomos {
+  font-family: manrope;
+  font-weight: bold;
+  text-align: justify;
+  padding: 20px 70px 60px 80px;
+}
+
+.envios, .contacto {
+  font-family: manrope;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0cm;
+}
+
+.envios-texto, .envios2 {
+  text-align: justify;
+  font-family: manrope;
+  padding: 20px 70px 30px 80px;
+  margin-bottom: 0cm;
+}
+
 .header-container {
   background-color: #607963;
   color: white;
@@ -15,6 +43,11 @@
 
 .bg {
   background-color: #607963;
+}
+
+.navbar {
+  font-family: manrope;
+  color: white;
 }
 
 .navbar-brand {
@@ -41,6 +74,80 @@
 
 .container1 {
   background-color: #607963;
+}
+
+.inicio {
+  background-color: #b9cebb;
+}
+
+.diseños-container {
+  background-color: #ECF8EE;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #607963;
+  border: #607963;
+}
+.btn-primary:hover {
+  background-color: #a1b4a4;
+  border: #a1b4a4;
+}
+
+.form-container {
+  font-family: manrope;
+  text-align: start;
+  background-color: #ECF8EE;
+}
+
+.contacto {
+  background-color: #ECF8EE;
+}
+
+.envios {
+  background-color: #ECF8EE;
+  color: black;
+}
+
+.envios2 {
+  background-color: #ECF8EE;
+  color: black;
+}
+
+.mapa {
+  padding-bottom: 20px;
+}
+
+#cubrebidones {
+  font-family: manrope;
+}
+
+#espejos {
+  font-family: manrope;
+}
+
+#portamacetas {
+  font-family: manrope;
+}
+
+#adornos {
+  font-family: manrope;
+}
+
+#bancos {
+  font-family: manrope;
+}
+
+.card-title {
+  font-family: manrope;
+}
+
+.card-text {
+  font-family: manrope;
+}
+
+.btn {
+  font-family: manrope;
 }
 
 /*# sourceMappingURL=style.css.map */

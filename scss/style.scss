@@ -21,6 +21,11 @@
     background-color: nth($colores, 4);
 }
 
+.navbar{
+    font-family: manrope;
+    color: nth($colores, 2);
+}
+
 .navbar-brand{
     text-transform: map-get($navbar , text-transform-navbar );
 }
@@ -45,4 +50,106 @@
 
 .container1{
     background-color: nth($colores , 4 );
+}
+
+
+.inicio{
+    background-color: nth($colores, 5 );
+}
+
+.quienesomos{
+    @extend %index;
+}
+
+.imagenes1{
+    @extend %index;
+}
+
+#titulo-diseños{
+    @extend %index;
+}
+
+.textoquienesomos{
+    @extend %index-textos;
+}
+
+.texto-diseños{
+    @extend %index-textos;
+}
+
+.diseños-container{
+    background-color: nth($colores, 1);
+}
+
+.btn-primary{
+    color: nth($colores, 2);
+    background-color: nth($colores, 4);
+    border: nth($colores , 4 );
+    &:hover{
+        background-color: nth($colores, 6 );
+        border: nth($colores, 6 );
+    }
+}
+
+.form-container{
+    font-family: manrope;
+    text-align: start;
+    background-color: nth($colores, 1);
+}
+
+.contacto{
+    @extend %conen;
+    background-color: nth($colores, 1);
+}
+
+.envios{
+    @extend %conen;
+    background-color: nth($colores, 1);
+    color: nth($colores, 3)
+}
+
+.envios2{
+    @extend %envios-textos;
+    background-color: nth($colores, 1);
+    color: nth($colores, 3);
+}
+
+.envios-texto{
+    @extend %envios-textos;
+}
+
+.mapa{
+    padding-bottom: 20px;
+}
+
+#cubrebidones{
+    font-family: manrope;
+}
+
+#espejos{
+    font-family: manrope;
+}
+
+#portamacetas{
+    font-family: manrope;
+}
+
+#adornos{
+    font-family: manrope;
+}
+
+#bancos{
+    font-family: manrope;
+}
+
+.card-title{
+    font-family: manrope;
+}
+
+.card-text{
+    font-family: manrope;
+}
+
+.btn{
+    font-family: manrope;
 }
