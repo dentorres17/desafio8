@@ -1,0 +1,34 @@
+@import "../componentes/listas";
+@import "../componentes/extends";
+@import "../componentes/mapas";
+@import "../componentes/mixins";
+
+.header-container{
+    background-color: nth($colores , 4 );
+    color: nth($colores, 2 );
+    @include flexbox (flex, space-around);
+}
+
+.logo{
+    @include flexbox (flex, center);
+    img{
+        width: 40%;
+    }
+}
+
+.bg{
+    background-color: nth($colores, 4);
+}
+
+.navbar-brand{
+    text-transform: map-get($navbar , text-transform-navbar );
+}
+
+.dropdown-item{
+    font-family: manrope;
+}
+
+.nav-link{
+    font-family: map-get($navbar , font-navbar );
+    text-transform: map-get($navbar , text-transform-navbar );
+}

@@ -1,3 +1,33 @@
+.header-container {
+  background-color: #607963;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
 
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 40%;
+}
+
+.bg {
+  background-color: #607963;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+}
+
+.dropdown-item {
+  font-family: manrope;
+}
+
+.nav-link {
+  font-family: manrope;
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=style.css.map */
