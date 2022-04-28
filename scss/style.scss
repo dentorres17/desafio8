@@ -8,6 +8,7 @@
     background-color: nth($colores , 4 );
     color: nth($colores, 2 );
     @include flexbox (flex, space-around);
+    align-items: center;
 }
 
 .logo{

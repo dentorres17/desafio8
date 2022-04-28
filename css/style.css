@@ -31,6 +31,7 @@
   color: white;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .logo {
