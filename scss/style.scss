@@ -3,7 +3,10 @@
 @import "componentes/mapas";
 @import "componentes/mixins";
 
-
+@font-face{
+    font-family: manrope;
+    src: url(../fonts/Manrope-VariableFont_wght.ttf)
+}
 .header-container{
     background-color: nth($colores , 4 );
     color: nth($colores, 2 );

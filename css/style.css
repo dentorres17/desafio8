@@ -26,6 +26,10 @@
   margin-bottom: 0cm;
 }
 
+@font-face {
+  font-family: manrope;
+  src: url(../fonts/Manrope-VariableFont_wght.ttf);
+}
 .header-container {
   background-color: #607963;
   color: white;
