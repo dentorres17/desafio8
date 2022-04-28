@@ -33,3 +33,16 @@
     font-family: map-get($navbar , font-navbar );
     text-transform: map-get($navbar , text-transform-navbar );
 }
+
+.text{
+    color: nth($colores, 2);
+    font-family: manrope;
+    font-size: 15px;
+    &:hover{
+        color: nth($colores , 2 );
+    }
+}
+
+.container1{
+    background-color: nth($colores , 4 );
+}

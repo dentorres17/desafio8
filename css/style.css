@@ -30,4 +30,17 @@
   text-transform: uppercase;
 }
 
+.text {
+  color: white;
+  font-family: manrope;
+  font-size: 15px;
+}
+.text:hover {
+  color: white;
+}
+
+.container1 {
+  background-color: #607963;
+}
+
 /*# sourceMappingURL=style.css.map */

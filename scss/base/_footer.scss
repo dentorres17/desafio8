@@ -1,0 +1,18 @@
+@import "../componentes/listas";
+@import "../componentes/extends";
+@import "../componentes/mapas";
+@import "../componentes/mixins";
+
+
+.text{
+    color: nth($colores, 2);
+    font-family: manrope;
+    font-size: 15px;
+    &:hover{
+        color: nth($colores , 2 );
+    }
+}
+
+.container1{
+    background-color: nth($colores , 4 );
+}
