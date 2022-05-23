@@ -8,7 +8,7 @@
 .texto-diseños, .textoquienesomos {
   font-family: manrope;
   font-weight: bold;
-  text-align: justify;
+  text-align: center;
   padding: 20px 70px 60px 80px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .envios-texto, .envios2 {
-  text-align: justify;
+  text-align: center;
   font-family: manrope;
   padding: 20px 70px 30px 80px;
   margin-bottom: 0cm;
@@ -101,7 +101,7 @@
 
 .form-container {
   font-family: manrope;
-  text-align: start;
+  text-align: center;
   background-color: #ECF8EE;
 }
 
@@ -123,7 +123,7 @@
   padding-bottom: 20px;
 }
 
-#cubrebidones {
+#tapices {
   font-family: manrope;
 }
 
@@ -131,15 +131,11 @@
   font-family: manrope;
 }
 
-#portamacetas {
+#otros {
   font-family: manrope;
 }
 
 #adornos {
-  font-family: manrope;
-}
-
-#bancos {
   font-family: manrope;
 }
 
